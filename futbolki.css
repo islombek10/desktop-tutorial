@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar{
+    /* border: 1px solid red; */
+    position: relative;
+    display: flex;
+}
+.header-bg{
+    width: 100%;
+    object-fit: cover;
+    min-height: 700px;
+}
+.main__navbar{
+    /* border: 1px solid rgb(0, 251, 255); */
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    margin-top: 0px;
+}
+.navbar__top{
+    /* border: 1px solid green; */
+    display: flex;
+    margin-top: 10px;
+}
+.navbar__top__left{
+    /* border: 1px solid blue; */
+    width: 20%;
+}
+.navbar__top__left img{
+    margin-left: 150px;
+}
+.navbar__top__right{
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 45px;
+}
+.navbar__top__right li:hover{
+    background:rgb(147, 126, 9);
+    width: 130px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar__top__right a:hover{
+    color: white;
+}
+.navbar__top__right ul{
+    /* border: 1px solid rgb(255, 0, 0); */
+    display: flex;
+    height: 45px;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+.navbar__top__right a{
+    font-size: 18px;
+    color: rgb(32, 29, 29);
+    font-family: 'Arial';
+}
+.navbar__bottom{
+    /* border: 1px solid purple; */
+    margin-top: 150px;
+    height: 140px;
+}
+.navbar__bottom h5{
+    font-size: 85px;
+    color:rgb(147, 126, 9);
+    margin-left: 150px;
+}
+.navbar__bottom p{
+    margin-left: 150px;
+    font-size: 20px;
+}
+.section{
+    /* border: 1px solid red; */
+    height: 980px;
+    display: flex;
+    justify-content: center;
+}
+.section__main{
+    /* border: 1px solid blue; */
+    height: 720px;
+    width: 80%;
+    margin-top: 95px;
+    display: flex;
+}
+.section__left{
+    /* border: 1px solid green; */
+    width: 50%;
+    height: 720px;
+}
+.section__right{
+    /* border: 1px solid rgb(125, 3, 255); */
+    width: 50%;
+    height: 720px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.section__left__top{
+    /* border: 1px solid brown; */
+    height: 430px;
+}
+.section__left__top img{
+    object-fit: cover;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+.section__left__bottom h5{
+    font-size: 22px;
+}
+.section__left__bottom span{
+font-size: 25px;
+}
+.section__left__bottom p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.item{
+    border: 4px solid rgb(145, 141, 141);
+    width: 98%;
+    margin-left: 8px;
+    display: flex;
+    height: 160px;
+}
+.item__left{
+    /* border: 1px solid forestgreen; */
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item__right{
+    /* border: 1px solid blue; */
+    height: 100%;
+    width: 76%;
+}
+.item__img{
+    border: 5px solid rgb(255, 234, 114);
+    border-radius: 120px;
+    height: 120px;
+}
+.item__img img{
+    border-radius: 120px;
+    height: 120px;
+}
+.item__right h5{
+    font-size: 23px;
+    margin-top: 10px;
+}
+.item__right p{
+    font-size: 18px;
+    line-height: 25px;
+    color: rgb(100, 98, 98);
+}
+.footer{
+    background: rgb(234, 225, 210);
+    height: 300px;
+    margin-top: 10px;
+}
+.footer__top{
+    /* border: 1px solid green; */
+    display: flex;
+    margin-top: 100px;
+}
+.footer__top__left{
+    /* border: 1px solid blue; */
+    width: 20%;
+    margin-top: 100px;
+}
+.footer__top__left img{
+    margin-left: 150px;
+}
+.footer__top__right{
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 45px;
+    margin-top: 100px;
+}
+.footer__top__right ul{
+    /* border: 1px solid rgb(255, 0, 0); */
+    display: flex;
+    height: 45px;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+.footer__top__right a{
+    font-size: 18px;
+    color: rgb(32, 29, 29);
+    font-family: 'Arial';
+}
+.footer__bottom{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+}
+.footer__bottom p{
+    font-size: 18px;
+    margin-left: 540px;
+    color: rgb(58, 57, 57);
+}
+.footer__top a:hover{
+    color: red;
+}
